@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anil Kumar - M.Tech Student & Aspiring Product Manager at IIIT Hyderabad">
+    <title>Anil Kumar - Product Manager Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <span class="logo-circle"></span>
+                    <span class="logo-text">Portfolio</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">WORKS</a></li>
+                    <li><a href="#contact"><button class="btn btn-primary btn-sm">Contact</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <p class="hero-greeting">HELLO</p>
+                    <h1 class="hero-title">
+                        Hi There, I'm<br />
+                        <span class="text-gradient">Anil Kumar</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        I'm an <strong>M.Tech student at IIIT Hyderabad</strong> with a strong interest in Product Management. 
+                        I focus on understanding user problems, thinking through systems, and executing ideas into practical products.
+                    </p>
+                    <div class="hero-cta">
+                        <button class="btn btn-primary" onclick="scrollToSection('contact')">Contact Me</button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('projects')">My Works</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="decorative-x">
+                            <svg width="200" height="200" viewBox="0 0 200 200">
+                                <path d="M50 50 L150 150 M150 50 L50 150" stroke="#FF6B6B" stroke-width="30" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <img src="hero-image.png" alt="Anil Kumar - Product Manager" class="hero-profile-image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <h2 class="stat-number text-gradient">5+</h2>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+                <div class="stat-card reveal">
+                    <h2 class="stat-number text-gradient">2+</h2>
+                    <p class="stat-label">Years of Learning</p>
+                </div>
+                <div class="stat-card reveal">
+                    <h2 class="stat-number text-gradient">PDM</h2>
+                    <p class="stat-label">Student at IIIT Hyd</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section" id="about">
+        <div class="container">
+            <div class="about-header reveal">
+                <h2>About Me</h2>
+                <p class="section-subtitle">
+                    Aspiring Product Manager building real products, not just case studies
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-narrative reveal">
+                    <p>
+                        I'm an <strong>aspiring Product Manager</strong> currently pursuing PDM at IIIT Hyderabad, 
+                        passionate about building products that genuinely solve user problems.
+                    </p>
+                    <p>
+                        My approach combines <strong>strong discovery</strong>, <strong>system design</strong>, 
+                        and <strong>execution excellence</strong>. I've worked across full-stack systems, BFSI workflows, 
+                        healthcare platforms, and SaaS products—not just as case studies, but as <strong>real, 
+                        functional products</strong> that serve actual users.
+                    </p>
+                </div>
+                
+                <div class="pm-toolkit reveal">
+                    <h3 class="toolkit-title">PM Toolkit</h3>
+                    <div class="toolkit-grid">
+                        <div class="toolkit-card card">
+                            <div class="toolkit-icon">🔍</div>
+                            <h4>Product Discovery</h4>
+                            <p>Finding real problems worth solving through user research</p>
+                        </div>
+                        <div class="toolkit-card card">
+                            <div class="toolkit-icon">👥</div>
+                            <h4>User Research</h4>
+                            <p>Deep empathy with users and stakeholders</p>
+                        </div>
+                        <div class="toolkit-card card">
+                            <div class="toolkit-icon">📋</div>
+                            <h4>PRDs & Roadmaps</h4>
+                            <p>Turning vision into actionable execution plans</p>
+                        </div>
+                        <div class="toolkit-card card">
+                            <div class="toolkit-icon">📊</div>
+                            <h4>Metrics & ROI</h4>
+                            <p>Data-driven decision making and impact measurement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section section" id="projects">
+        <div class="container">
+            <div class="projects-header reveal">
+                <h2>Featured Projects</h2>
+                <p class="projects-subtitle">
+                    Real products built from discovery to delivery—not just case studies
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Vidyavichar -->
+                <div class="project-card reveal">
+                    <div class="project-card-inner">
+                        <div class="project-type" style="background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)">FULL PRODUCT</div>
+                        <h3 class="project-title">Vidyavichar</h3>
+                        <p class="project-subtitle">Class & Q&A Management Platform</p>
+                        <div class="project-problem">
+                            <span class="problem-label">Problem:</span>
+                            <p>Inefficient classroom Q&A and TA workflows leading to delayed responses and operational chaos</p>
+                        </div>
+                        <div class="project-role">
+                            <span class="role-icon">👤</span>
+                            <span>Product Manager & Builder</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Key Outcomes</h4>
+                            <ul>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reduced unanswered queries by 60% through smart routing</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Real-time question distribution across TAs</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Role-based dashboards for Students, TAs, and Professors</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Improved TA response time from 2 hours to 15 minutes</li>
+                            </ul>
+                        </div>
+                        <div class="project-footer">
+                            <div class="tech-stack">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">+1</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Hospital Management -->
+                <div class="project-card reveal">
+                    <div class="project-card-inner">
+                        <div class="project-type" style="background: linear-gradient(135deg, #F97316 0%, #FBBF24 100%)">FULL PRODUCT</div>
+                        <h3 class="project-title">Hospital Management System</h3>
+                        <p class="project-subtitle">BedManager + IT Admin</p>
+                        <div class="project-problem">
+                            <span class="problem-label">Problem:</span>
+                            <p>Real-time bed allocation inefficiency causing operational delays and poor resource utilization</p>
+                        </div>
+                        <div class="project-role">
+                            <span class="role-icon">👤</span>
+                            <span>Product Manager & System Designer</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Key Outcomes</h4>
+                            <ul>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Live bed occupancy tracking across all wards</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Smart bed recommendations based on patient needs</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Role-based access for Admins, Ward Staff, ICU Managers</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Forecasting analytics for bed availability</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reduced bed allocation time by 40%</li>
+                            </ul>
+                        </div>
+                        <div class="project-footer">
+                            <div class="tech-stack">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">Supabase</span>
+                                <span class="tech-tag">+1</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: FeedForward -->
+                <div class="project-card reveal">
+                    <div class="project-card-inner">
+                        <div class="project-type" style="background: linear-gradient(135deg, #10B981 0%, #3B82F6 100%)">FULL PRODUCT</div>
+                        <h3 class="project-title">FeedForward</h3>
+                        <p class="project-subtitle">Product Feedback Platform for Freelancers</p>
+                        <div class="project-problem">
+                            <span class="problem-label">Problem:</span>
+                            <p>Scattered, unstructured client feedback making it hard to track and prioritize tasks</p>
+                        </div>
+                        <div class="project-role">
+                            <span class="role-icon">👤</span>
+                            <span>Product Manager</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Key Outcomes</h4>
+                            <ul>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Timestamped feedback linked to specific deliverables</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>PRD-context feedback for better clarity</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Trello-style tracking board for feedback-to-task flow</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Real-time collaboration with clients</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>70% faster feedback resolution for freelancers</li>
+                            </ul>
+                        </div>
+                        <div class="project-footer">
+                            <div class="tech-stack">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">WebSockets</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Topmate -->
+                <div class="project-card reveal">
+                    <div class="project-card-inner">
+                        <div class="project-type" style="background: linear-gradient(135deg, #EC4899 0%, #8B5CF6 100%)">CASE STUDY</div>
+                        <h3 class="project-title">Topmate Product Redesign</h3>
+                        <p class="project-subtitle">Case Study</p>
+                        <div class="project-problem">
+                            <span class="problem-label">Problem:</span>
+                            <p>Low mentor-mentee retention and missed opportunities in job referral features</p>
+                        </div>
+                        <div class="project-role">
+                            <span class="role-icon">👤</span>
+                            <span>Product Analyst</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Key Outcomes</h4>
+                            <ul>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Conducted 15+ user interviews with mentors and mentees</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Comprehensive competitive analysis (ADPList, Preplaced)</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Direct insights from CEO interview</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Designed retention-boosting features</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Actionable UX recommendations for mentor matching</li>
+                            </ul>
+                        </div>
+                        <div class="project-footer">
+                            <div class="tech-stack">
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">User Research</span>
+                                <span class="tech-tag">Competitive Analysis</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Canva -->
+                <div class="project-card reveal">
+                    <div class="project-card-inner">
+                        <div class="project-type" style="background: linear-gradient(135deg, #00C4CC 0%, #7B2CBF 100%)">CASE STUDY</div>
+                        <h3 class="project-title">Canva Product Strategy</h3>
+                        <p class="project-subtitle">Revenue Growth & User Retention</p>
+                        <div class="project-problem">
+                            <span class="problem-label">Problem:</span>
+                            <p>Limited workspace flexibility and low-quality exports causing user churn among mid-level designers and startup teams</p>
+                        </div>
+                        <div class="project-role">
+                            <span class="role-icon">👤</span>
+                            <span>Product Strategist</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Key Outcomes</h4>
+                            <ul>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Defined strategy to increase revenue by 10-15%</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Targeted mid-level designers with moderate spending power</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Analyzed user churn to identify key pain points</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Proposed "Canva Professional" desktop plan</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Designed "Canva Community" marketplace for monetization</li>
+                                <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3333 4L6 11.3333L2.66667 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Enhanced design experience and retention mechanisms</li>
+                            </ul>
+                        </div>
+                        <div class="project-footer">
+                            <div class="tech-stack">
+                                <span class="tech-tag">Product Strategy</span>
+                                <span class="tech-tag">Market Analysis</span>
+                                <span class="tech-tag">User Research</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section section" id="skills">
+        <div class="container">
+            <div class="skills-header reveal">
+                <h2>Skills & Strengths</h2>
+                <p class="skills-subtitle">
+                    Product-first mindset with technical awareness to bridge vision and execution
+                </p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="product-skills reveal">
+                    <h3><span class="text-gradient">Product Skills</span></h3>
+                    <div class="skills-grid">
+                        <div class="skill-pill">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>User Research</span>
+                        </div>
+                        <div class="skill-pill">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Problem Framing</span>
+                        </div>
+                        <div class="skill-pill">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>PRDs</span>
+                        </div>
+                        <div class="skill-pill">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>MVP Definition</span>
+                        </div>
+                        <div class="skill-pill">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Metrics & OKRs</span>
+                        </div>
+                        <div class="skill-pill">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Go-to-Market Thinking</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="technical-skills reveal">
+                    <h3><span class="text-gradient-orange">Technical Awareness</span></h3>
+                    <p class="tech-note">
+                        Building products requires understanding the tech—not just managing it
+                    </p>
+                    <div class="skills-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">React</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">Node.js & Express</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">Supabase & MongoDB</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name">WebSockets & Real-time</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy-section section" id="philosophy">
+        <div class="container">
+            <div class="philosophy-header reveal">
+                <h2><span class="text-gradient">Product Mindset</span></h2>
+                <p class="philosophy-subtitle">
+                    Principles that guide how I think about building products
+                </p>
+            </div>
+            
+            <div class="beliefs-grid">
+                <div class="belief-card reveal">
+                    <div class="belief-icon-wrapper">
+                        <div class="belief-icon" style="background: #FF6B6B">🎯</div>
+                    </div>
+                    <h3>Outcomes over features</h3>
+                    <p>Success isn't about shipping more—it's about delivering real value. Every feature should solve a measurable problem for users.</p>
+                </div>
+                <div class="belief-card reveal">
+                    <div class="belief-icon-wrapper">
+                        <div class="belief-icon" style="background: #FF4757">🧠</div>
+                    </div>
+                    <h3>Human judgment + systems thinking</h3>
+                    <p>Data guides decisions, but empathy and context drive great products. Balance metrics with deep user understanding.</p>
+                </div>
+                <div class="belief-card reveal">
+                    <div class="belief-icon-wrapper">
+                        <div class="belief-icon" style="background: #10B981">🤝</div>
+                    </div>
+                    <h3>Build trust before scale</h3>
+                    <p>Perfect the experience for 10 users before optimizing for 10,000. Trust compounds; shortcuts erode it.</p>
+                </div>
+                <div class="belief-card reveal">
+                    <div class="belief-icon-wrapper">
+                        <div class="belief-icon" style="background: #3B82F6">⚡</div>
+                    </div>
+                    <h3>Bias toward execution</h3>
+                    <p>Planning matters, but momentum matters more. Ship, learn, iterate. Action creates clarity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section" id="contact">
+        <div class="container">
+            <div class="contact-content reveal">
+                <div class="contact-header">
+                    <h2>Let's Build Meaningful Products Together</h2>
+                    <p class="contact-subtitle">
+                        I'm always open to discussing product ideas, collaboration opportunities, 
+                        or just chatting about what makes great products tick.
+                    </p>
+                </div>
+                
+                <div class="contact-links">
+                    <a href="mailto:anilkumarkondeboina@gmail.com" class="contact-link-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">anilkumarkondeboina@gmail.com</span>
+                        </div>
+                        <div class="contact-arrow">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/Anilkumark17" target="_blank" rel="noopener noreferrer" class="contact-link-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M9 19C4 20.5 4 16.5 2 16M16 22V18.13C16.0375 17.6532 15.9731 17.1738 15.811 16.7238C15.6489 16.2738 15.3929 15.8634 15.06 15.52C18.2 15.17 21.5 13.98 21.5 8.52C21.4997 7.12383 20.9627 5.7812 20 4.77C20.4559 3.54851 20.4236 2.19835 19.91 1C19.91 1 18.73 0.650001 16 2.48C13.708 1.85882 11.292 1.85882 9 2.48C6.27 0.650001 5.09 1 5.09 1C4.57638 2.19835 4.54414 3.54851 5 4.77C4.03013 5.7887 3.49252 7.14346 3.5 8.55C3.5 13.97 6.8 15.16 9.94 15.55C9.611 15.89 9.35726 16.2954 9.19531 16.7399C9.03335 17.1844 8.96681 17.6581 9 18.13V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">github.com/Anilkumark17</span>
+                        </div>
+                        <div class="contact-arrow">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/anilkondeboina/" target="_blank" rel="noopener noreferrer" class="contact-link-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">linkedin.com/in/anilkondeboina</span>
+                        </div>
+                        <div class="contact-arrow">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="contact-cta">
+                    <p class="cta-text">
+                        Currently seeking <strong>Product Management internship</strong> opportunities 
+                        where I can contribute to meaningful products and learn from experienced teams.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>© 2025 Anil Kumar. Built with passion for great products.</p>
+                    <p class="footer-note">PDM Student @ IIIT Hyderabad</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
